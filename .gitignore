@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+
+# DVC
+.dvc/cache/
+.dvc/tmp/
+.dvc/plots/
+.dvc/reports/
+.dvc/updates
+
+# Data and model outputs (tracked by DVC)
+data/raw/employees.csv
+data/processed/employees_clean.csv
+models/model.pkl
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/

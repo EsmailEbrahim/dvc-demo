@@ -1,3 +1,4 @@
+# Replace with your own remote
 [core]
     remote = localstorage
 ['remote "localstorage"']
